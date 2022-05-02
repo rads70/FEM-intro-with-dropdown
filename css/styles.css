@@ -129,7 +129,7 @@ ul {
 }
 .dropdown--content {
    position: relative;
-   background-color: white;
+   background-color: var(--almostWhite);
    padding: 1rem 0 0 2rem;
    z-index: 2;
    color: var(--mediumGrey);
@@ -166,6 +166,7 @@ ul {
    }
    .dropdown--content {
       position: absolute;
+
       box-shadow: 0 5px 20px 5px rgb(219, 219, 219);
       border-radius: 10px;
       top: 30px;
@@ -283,7 +284,7 @@ ul {
    width: 100%;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 768px) {
    .hero {
       width: 40%;
    }
