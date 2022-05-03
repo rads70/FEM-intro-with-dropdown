@@ -14,7 +14,7 @@ html {
 body {
    margin: 0;
    padding: 0;
-   font-size: 1.8rem;
+   font-size: 1.6rem;
    font-family: "Epilogue", sans-serif;
    font-weight: 500;
    color: var(--almostBlack);
@@ -90,9 +90,9 @@ ul {
 }
 .register {
    border-radius: 1px solid var(--mediumGrey);
-   border-radius: 15px;
+   border-radius: 10px;
    width: 80%;
-   padding: 1rem;
+   padding: 1.5rem 1rem;
    font: inherit;
    background-color: var(--almostWhite);
 }
@@ -262,10 +262,12 @@ ul {
 .intro button {
    border: 1px solid var(--almostBlack);
    background-color: var(--almostBlack);
-   padding: 1rem 2rem;
+   padding: 1.5rem 2.5rem;
    color: var(--almostWhite);
    border-radius: 10px;
    margin-bottom: 5rem;
+   cursor: pointer;
+   font-size: 1.6rem;
 }
 .intro button:hover {
    background-color: transparent;
