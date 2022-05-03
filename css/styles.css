@@ -267,6 +267,10 @@ ul {
    border-radius: 10px;
    margin-bottom: 5rem;
 }
+.intro button:hover {
+   background-color: transparent;
+   color: var(--almostBlack);
+}
 
 .client {
    display: grid;
